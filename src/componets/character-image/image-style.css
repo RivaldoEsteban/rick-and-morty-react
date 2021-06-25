@@ -1,0 +1,12 @@
+.character-image-container {
+  grid-area: avatar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .character-image-container img {
+    /* display: none; */
+  }
+}
