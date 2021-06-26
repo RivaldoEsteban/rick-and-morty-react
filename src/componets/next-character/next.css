@@ -1,0 +1,16 @@
+.arrow {
+  grid-area: arrow;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  background-image: url("../../arrow.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+@media (max-width: 1024px) {
+  .arrow {
+    user-select: none;
+    height: 50px;
+    background-position: center;
+  }
+}
