@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import "./next.css";
 import CharacterContext from "../context/context";
 import api from "../api/api";
