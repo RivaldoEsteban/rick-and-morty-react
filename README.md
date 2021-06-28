@@ -1,3 +1,10 @@
+#Rick and Morty React 
+
+En este proyecto utilizamo la api de Rick and Morty y nos traemos los datos de cada personaje. 
+
+<img src="./public/rick-morty.gif" alt="gif del proyecto"/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
