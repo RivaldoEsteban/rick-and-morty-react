@@ -2,7 +2,7 @@
 
 En este proyecto utilizamo la api de Rick and Morty y nos traemos los datos de cada personaje. 
 
-<img src="./public/block-master-gif.gif" alt="gif del proyecto"/>
+<img src="./public/rick-morty.gif" alt="gif del proyecto"/>
 
 
 # Getting Started with Create React App
