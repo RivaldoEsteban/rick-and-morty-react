@@ -5,8 +5,6 @@ class API {
     );
     const data = await response.json();
     return data;
-    // .then((response) => response.json())
-    //   .then((data) => data)
   }
 }
 

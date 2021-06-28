@@ -8,12 +8,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.logo {
-  grid-area: logo;
-  margin: 0 auto 2em;
-  display: block;
-}
-
 .grid {
   position: relative;
   z-index: 2;

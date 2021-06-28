@@ -25,6 +25,5 @@
 
 .asset.bottom {
   grid-area: asset-bottom;
-  /* border: 1px solid green; */
   justify-content: flex-end;
 }

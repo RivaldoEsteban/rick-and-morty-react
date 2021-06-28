@@ -23,7 +23,6 @@ function Layout({ name, image, description, setInputValue, next }) {
       <div className="navigation name">
         <NavigationItem url="#" text="name" />
       </div>
-
       <div id="character-name-container" className="character-name-container">
         {name}
       </div>
@@ -45,11 +44,6 @@ function Layout({ name, image, description, setInputValue, next }) {
         <span>learn more</span>
       </div>
       {next}
-      {/* <form action="" onSubmit={handleClickButton}>
-        <label htmlFor="">Busca tu personaje por id</label>
-        <input type="text" ref={ref} defaultValue="1" />
-        <button>Bucar</button>
-      </form> */}
     </div>
   );
 }
