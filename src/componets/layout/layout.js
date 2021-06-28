@@ -1,5 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import "./layout.css";
+import Social from "../social/social";
+import AssetTop from "../asset/asset";
+import Logo from "../logo/logo";
+import AssetBottom from "../assetBottom/assetBottom";
+import NavigationItem from "../navigation-item";
 
 function Layout({ name, image, description, setInputValue, next }) {
   const ref = useRef(null);
@@ -12,27 +17,11 @@ function Layout({ name, image, description, setInputValue, next }) {
 
   return (
     <div className="grid">
-      <span className="asset top">
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="line"></span>
-      </span>
-      <img className="logo" src="./images/logo@2x.png" width="280" alt="logo" />
-
-      <div className="social">
-        <a href="https://instagram.com/LeonidasEsteban">
-          <img src="./images/instagram.svg" alt="logo de instagram" />
-        </a>
-        <a href="https://facebook.com/LeonidasEsteban">
-          <img src="./images/facebook.svg" alt="logo de facebook" />
-        </a>
-        <a href="https://twitter.com/LeonidasEsteban">
-          <img src="./images/twitter.svg" alt="logo de twitter" />
-        </a>
-      </div>
+      <AssetTop />
+      <Logo />
+      <Social />
       <div className="navigation name">
-        <a href="#">Name</a>
+        <NavigationItem url="#" text="name" />
       </div>
 
       <div id="character-name-container" className="character-name-container">
@@ -42,7 +31,7 @@ function Layout({ name, image, description, setInputValue, next }) {
         {image}
       </div>
       <div className="navigation about">
-        <a href="#">About</a>
+        <NavigationItem url="#" text="about" />
       </div>
       <div
         id="character-description-container"
@@ -50,22 +39,17 @@ function Layout({ name, image, description, setInputValue, next }) {
       >
         {description}
       </div>
-      <span className="asset bottom">
-        <span className="line"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-      </span>
+      <AssetBottom />
       <div></div>
       <div className="learn-more">
         <span>learn more</span>
       </div>
       {next}
-      <form action="" onSubmit={handleClickButton}>
+      {/* <form action="" onSubmit={handleClickButton}>
         <label htmlFor="">Busca tu personaje por id</label>
-        <input type="text" ref={ref} />
+        <input type="text" ref={ref} defaultValue="1" />
         <button>Bucar</button>
-      </form>
+      </form> */}
     </div>
   );
 }

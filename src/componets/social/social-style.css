@@ -1,0 +1,21 @@
+.social {
+  grid-area: social;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .social {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .social a {
+    margin-left: 2em;
+  }
+  .social a:first-child {
+    margin-left: 0;
+  }
+}

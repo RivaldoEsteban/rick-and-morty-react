@@ -1,0 +1,30 @@
+.asset.top {
+  grid-area: asset-top;
+}
+.asset {
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  display: inline-flex;
+  margin-inline: 5px;
+}
+
+.line {
+  width: 2px;
+  height: 150px;
+  background: black;
+  display: inline-flex;
+  margin-inline: 15px;
+}
+
+.asset.bottom {
+  grid-area: asset-bottom;
+  /* border: 1px solid green; */
+  justify-content: flex-end;
+}

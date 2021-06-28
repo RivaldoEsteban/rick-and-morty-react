@@ -1,0 +1,5 @@
+.logo {
+  grid-area: logo;
+  margin: 0 auto 2em;
+  display: block;
+}

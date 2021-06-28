@@ -1,5 +1,3 @@
-import React from "react";
-
 class API {
   async getCharacter(id) {
     const response = await fetch(
@@ -12,4 +10,5 @@ class API {
   }
 }
 
-export default API;
+const api = new API();
+export default api;
