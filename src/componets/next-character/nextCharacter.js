@@ -5,12 +5,12 @@ import api from "../api/api";
 import NProgress from "nprogress";
 import { useHistory } from "react-router-dom";
 
-function NextCharacter({ inputValue, setInputValue, character }) {
+function NextCharacter() {
   const context = useContext(CharacterContext);
   const history = useHistory();
   async function handleClick() {
     NProgress.start();
-    history.push(`${context.character.id + 1}`);
+    history.push(`${process.env.PUBLIC_URL}/${context.character.id + 1}`);
     context.setCharacter(await api.getCharacter(context.character.id + 1));
     NProgress.done();
   }

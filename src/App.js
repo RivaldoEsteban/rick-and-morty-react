@@ -17,8 +17,16 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/" exact component={Character}></Route>
-          <Route path="/:id" exact component={Character}></Route>
+          <Route
+            path={`${process.env.PUBLIC_URL}/`}
+            exact
+            component={Character}
+          ></Route>
+          <Route
+            path={`${process.env.PUBLIC_URL}/:id`}
+            exact
+            component={Character}
+          ></Route>
         </Switch>
       </Router>
     </div>
