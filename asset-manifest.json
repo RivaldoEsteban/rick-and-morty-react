@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/rick-and-morty-react/static/css/main.4b70c351.chunk.css",
-    "main.js": "/rick-and-morty-react/static/js/main.8f29814d.chunk.js",
-    "main.js.map": "/rick-and-morty-react/static/js/main.8f29814d.chunk.js.map",
+    "main.css": "/rick-and-morty-react/static/css/main.136601ff.chunk.css",
+    "main.js": "/rick-and-morty-react/static/js/main.2c00aa2e.chunk.js",
+    "main.js.map": "/rick-and-morty-react/static/js/main.2c00aa2e.chunk.js.map",
     "runtime-main.js": "/rick-and-morty-react/static/js/runtime-main.c686bb56.js",
     "runtime-main.js.map": "/rick-and-morty-react/static/js/runtime-main.c686bb56.js.map",
-    "static/js/2.7ba72063.chunk.js": "/rick-and-morty-react/static/js/2.7ba72063.chunk.js",
-    "static/js/2.7ba72063.chunk.js.map": "/rick-and-morty-react/static/js/2.7ba72063.chunk.js.map",
+    "static/js/2.de806a56.chunk.js": "/rick-and-morty-react/static/js/2.de806a56.chunk.js",
+    "static/js/2.de806a56.chunk.js.map": "/rick-and-morty-react/static/js/2.de806a56.chunk.js.map",
     "static/js/3.01427b29.chunk.js": "/rick-and-morty-react/static/js/3.01427b29.chunk.js",
     "static/js/3.01427b29.chunk.js.map": "/rick-and-morty-react/static/js/3.01427b29.chunk.js.map",
     "index.html": "/rick-and-morty-react/index.html",
-    "static/css/main.4b70c351.chunk.css.map": "/rick-and-morty-react/static/css/main.4b70c351.chunk.css.map",
-    "static/js/2.7ba72063.chunk.js.LICENSE.txt": "/rick-and-morty-react/static/js/2.7ba72063.chunk.js.LICENSE.txt",
-    "static/media/next.css": "/rick-and-morty-react/static/media/arrow.55fa2128.svg"
+    "static/css/main.136601ff.chunk.css.map": "/rick-and-morty-react/static/css/main.136601ff.chunk.css.map",
+    "static/js/2.de806a56.chunk.js.LICENSE.txt": "/rick-and-morty-react/static/js/2.de806a56.chunk.js.LICENSE.txt",
+    "static/media/next.css": "/rick-and-morty-react/static/media/arrow.55fa2128.svg",
+    "static/media/styles.css": "/rick-and-morty-react/static/media/learn-more.46e1da12.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c686bb56.js",
-    "static/js/2.7ba72063.chunk.js",
-    "static/css/main.4b70c351.chunk.css",
-    "static/js/main.8f29814d.chunk.js"
+    "static/js/2.de806a56.chunk.js",
+    "static/css/main.136601ff.chunk.css",
+    "static/js/main.2c00aa2e.chunk.js"
   ]
 }
